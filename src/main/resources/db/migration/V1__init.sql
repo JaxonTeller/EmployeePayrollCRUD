@@ -1,0 +1,6 @@
+CREATE TABLE Employee(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    employeeName VARCHAR(255) NOT NULL UNIQUE,
+    role VARCHAR(255) NOT NULL
+);
+
